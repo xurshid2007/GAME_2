@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;  
+    
+}
+.box{
+    width: 1400px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.cards{
+    width: 200px;
+    height: 100px;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+.cards p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100px;
+}
+
+h1{
+    width: 1000px;
+    font-size: 200px;
+    color: RED;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 100px 0;
+}
+.answer:hover {
+ opacity: 50%;
+}
+.topline{
+    width: 1330px;
+    height: 100px;
+    border: 1px solid red;
+    
+}
+button{
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    transition: 0.3s;
+}
+button:hover{
+    box-shadow: 0px 0px 55px 2px gray;
+}
